@@ -1,0 +1,54 @@
+html{
+background-image: url('http://www.saga.co.uk/contentlibrary/saga/publishing/verticals/home-and-garden/gardening/advice-and-tips/pests/controlling_snails_1280.jpg');
+background-size: cover;
+}
+
+body{
+  color: brown;
+}
+
+h1 {
+  text-align: left;
+}
+
+h2{
+  text-align: center;
+}
+
+h3{
+  text-align: right;
+}
+
+h4{
+  text-align: justify;
+}
+
+.ugly-links{
+  width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+
+}
+
+.ugly-link{
+  border: 12px dot blue;
+  width: 450px;
+
+}
+
+footer{
+  background-image: url('http://www.animatedgif.net/underconstruction/anim0205-1_e0.gif');
+  background-size: cover;
+  width: 300px;
+   height:300px;
+   z-index:300;
+   bottom: 0px;
+   top: -50px;
+   right: -150px;
+   position: relative;
+}
+
+.footer-p {
+  text-align: center;
+  text-decoration-color: white;
+}
