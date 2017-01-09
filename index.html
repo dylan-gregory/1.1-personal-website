@@ -14,6 +14,7 @@
     <h5>NASTY</h5>
     <hr/>
 
+    <section>
     <p>What comes to mind when you think "what's the most disgusting thing I've ever seen?" It should definitely be this website. There are many many MANY horrible things on this planet (and on many others) but this, my friend, is THE WORST.</p>
 
     <p>I know what you're thinking.
@@ -27,11 +28,13 @@
     <p>really</p>
 
     <p>is.</p>
+  </section>
 
 
     <marquee behavior="scroll" direction="left">This snail isn't actually ugly at all - it is BEAUTIFUL!!!!!!
     </marquee>
 
+    <aside>
     <p>Here's a list of things that are ALMOST as atrocious as this page:</p>
 
     <ol class="ugly-links">
@@ -40,6 +43,47 @@
       <li class="ugly-link"><a href="http://www.huffingtonpost.com/news/bad-grammar/">Bad Grammar</a></li>
       <li class="ugly-link"><a href="http://theoffice.wikia.com/wiki/Gabe_Lewis">Gabe</a></li>
     </ol>
+  </aside>
+
+
+    <table style="width:100%">
+  <tr>
+    <th>Ugly Statistics</th>
+    <th>Value of Statistic</th>
+  </tr>
+  <tr>
+    <td># of People Who Love Crocs</td>
+    <td>13</td>
+  </tr>
+  <tr>
+    <td>Improper Grammar Usage in America</td>
+    <td>13,000/second</td>
+  </tr>
+</table>
+
+<button class="tim" id="rock" onClick="changeBackground('red')">Snails</button>
+
+<script> function changeBackground(color) {
+   document.body.style.background = color;
+}</script>
+
+
+<script type="text/javascript">
+    function blinker()
+    {
+        if(document.getElementById("blink"))
+        {
+            var d = document.getElementById("blink") ;
+            d.style.color= (d.style.color=='red'?'white':'red');
+            setTimeout('blinker()', 500);
+        }
+    }
+</script>
+
+<body onload="blinker();">
+    <div id="blink">Snails are Beautiful</div>
+</body>
+
 
 
     <footer>
