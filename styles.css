@@ -31,8 +31,18 @@ h4{
 }
 
 .ugly-link{
-  border: 12px dot blue;
-  width: 450px;
+  border: 12px dashed blue;
+  width: 300px;
+
+}
+
+.ugly-link a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 60px;
+
 
 }
 
